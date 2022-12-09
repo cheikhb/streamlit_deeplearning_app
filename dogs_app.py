@@ -3,7 +3,6 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 from PIL import Image, ImageOps
-@st.cache 
 st.title("Dogs Image Classification App")
 
 my_content = open("races.txt", "r")
